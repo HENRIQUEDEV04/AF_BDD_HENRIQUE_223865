@@ -13,7 +13,7 @@ Esses cenários exemplificam como o sistema de locação de carros responde às 
 condições dos clientes, adaptando-se para garantir uma experiência satisfatória de locação, seja para
 reservas antecipadas ou demandas de última hora.
 
-*Feature: Locação de carros*
+# *Feature: Locação de carros*
 
 Cenario: Cliente reserva um carro de luxo com antecedência
 Given que um cliente deseja alugar um carro de luxo
@@ -21,7 +21,7 @@ And o cliente realiza uma reserva com antecedência de pelo menos uma semana
 When o cliente confirma a reserva
 When o sistema deve oferecer um desconto especial no valor total da locação
 
-*Cenário: Cliente aluga um carro utilitário de última hora*
+# *Cenário: Cliente aluga um carro utilitário de última hora*
 
 Given que um cliente necessita alugar um carro utilitário de última hora
 When o cliente busca por um veículo disponível sem reserva prévia
